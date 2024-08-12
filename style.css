@@ -1,0 +1,99 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color:#FFE9D0;
+}
+#game-container{
+         height:90vmin;
+         display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+}
+h1{
+    color: #132743;
+}
+
+#game{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color:#E1AFD1;
+    color: #132743;
+    font-size: 2rem;
+    border:2px solid #AD88C6;
+}
+#reset-btn{
+    height:40px;
+    width:80px;
+    background-color: #132743;
+    color: white;
+    border-radius: 1rem;
+}
+.image{
+    height:60vmin;
+    width:63vmin;
+    background-image:url("bunny.gif");
+    background-size:cover;
+}
+.container1{
+    height:90vmin;
+    width:100vmin;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+#restart-btn{
+    height:50px;
+    width:90px;
+    margin-bottom: 19px;
+    background-color: #132743;
+    color: white;
+    border-radius: 1rem;
+    z-index: 2;
+}
+.hide{
+    display: none;
+}
+.not-hide{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#para{
+    color: rgb(52, 5, 5);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    font-size: 3rem;
+    font-family:'Comic Sans MS', cursive;
+    font-weight:bolder;
+    font-style: italic;
+    margin-top: 200px;
+}
+.main-container{
+    height:60vmin;
+    width:80vmin;
+    margin-left: 400px;
+    margin-top: 95px;
+    position:absolute;
+    background-color:#D8B4F8;
+    z-index: 1;
+    border-radius: 1rem;
+    border: 3px solid #132743;
+}
